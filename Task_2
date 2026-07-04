@@ -1,0 +1,23 @@
+import re
+file = open("input.txt", "r")
+text = file.read()
+file.close()
+
+emails = re.findall(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}', text)
+
+#
+output = open("emails.txt", "w")
+
+for email in emails:
+    output.write(email + "\n")
+
+output.close()
+
+
+print("===== Extracted Email Addresses =====")
+
+for email in emails:
+    print(email)
+
+print("\nTotal Emails Found:", len(emails))
+print("Emails saved successfully in emails.txt")
