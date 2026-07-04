@@ -108,4 +108,5 @@ Provides an easy-to-use and beginner-friendly interface.
 ## Conclusion
 
 The Email Address Extractor is a simple yet effective Python automation project that demonstrates the use of file handling and Regular Expressions. It automates the process of extracting email addresses from text files and storing them in a separate file, making data processing faster, easier, and more efficient. This project provides a strong foundation for learning Python automation and text-processing techniques.
-![Uploading image.png…]()
+![Uploading Screenshot 2026-07-04 142626.png…]()
+
